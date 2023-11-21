@@ -1,0 +1,26 @@
+[
+  {
+    "model": "products.productcategory",
+    "pk": 1,
+    "fields": {
+      "name": "Удаление зуба",
+      "description": "Без боли и слёз!"
+    }
+  },
+  {
+    "model": "products.productcategory",
+    "pk": 2,
+    "fields": {
+      "name": "пломбирование",
+      "description": " "
+    }
+  },
+  {
+    "model": "products.productcategory",
+    "pk": 3,
+    "fields": {
+      "name": "Терапия",
+      "description": "Лечение зубов с помощью современных материалов и новейшего обезболивания"
+    }
+  }
+]

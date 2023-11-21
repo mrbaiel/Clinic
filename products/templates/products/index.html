@@ -1,0 +1,36 @@
+{% extends 'products/base.html' %}
+{% load static %}
+
+{% block css %}
+        <link href="/static/vendor/css/index.css" rel="stylesheet">
+{% endblock  %}
+
+
+{% block content %}
+           <section>
+    <!--    <div class="alert alert-light text-center" role="alert">-->
+    <!--        Информационное сообщение-->
+    <!--    </div>-->
+    <div class="container">
+        <div class="row">
+            <div style="color: LightGray" class="col-lg-6">
+                <h1 class="mt-5">Касиет</h1>
+                <p style="color: LightGray">
+                    Заботимся о вашей улыбке каждый день - ваша стомaтологическая клиника "Касиет"
+                </p>
+                <button id="start-purchase-btn" type="button" class="btn btn-lg">
+                    <a id="start-purchase-link" href="{% url 'products:index' %}">
+                        Посмотреть услуги
+                    </a>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock  %}
+
+
+
+
+
+

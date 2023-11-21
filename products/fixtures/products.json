@@ -1,0 +1,46 @@
+[
+  {
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+      "name": "Временные пломбы",
+      "description": "Временные пломбы используются не только для выявления пульпита, но и в качестве герметизирующего средства в случае длительного лечения, подразумевающего использование лекарственных средств, закладываемых в полость.",
+      "price": "500.00",
+      "image": "products_images/plombirovanie-zubov_W7HwotF.jpg",
+      "category": 2
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+      "name": "Удаление постоянного зуба",
+      "description": "простое (без разделения корней)",
+      "price": "1000.00",
+      "image": "products_images/cleaning3.jpg",
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+      "name": "Удаление постоянного зуба",
+      "description": "сложное (с разделением корней, коренные, двухкорневые)",
+      "price": "3000.00",
+      "image": "products_images/cleaning.jpg",
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+      "name": "пломба световой полимеризации",
+      "description": "Лечение не кариозных поражений зуба с постановкой пломбы световой полимеризации",
+      "price": "1000.00",
+      "image": "products_images/cleaning2.jpg",
+      "category": 2
+    }
+  }
+]
